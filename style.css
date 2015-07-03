@@ -28,26 +28,43 @@ ul{
 
 
 }
-nav {
-    bottom: 10px;
+nav a{
+    text-decoration:none;
+    color: darkorange;
+}
+nav a:link,{
+    color: #919191;
+
+}
+nav a:active {
+    color: #8b8b8b;
+}
+nav a:visited {
+    color: #595959;
+}
+nav a:hover {
+    color: #7f4210;
 }
 nav ul{
     text-align: center;
-
-
 }
 nav li{
-
     display: inline;
     margin-right: 2%;
     font-size: 1.5em;
+}
+
+
+
+nav li:hover{
+    border-bottom: solid #272426;
 }
 
 #gallery{
     display: block;
     padding-top: 150px;
     position: relative;
-    left: 20%;
+    left: 25%;
 }
 footer{
     width: 100%;
@@ -70,9 +87,10 @@ footer{
 }
 #email_field{
     width: 10em;
+    margin-bottom: 10px;
     height: 1.3em;
     top: 100px;
-    margin-left: 90%;
+    margin-left: 87%;
     box-shadow: 0 10px 6px -6px black;
     background-color: antiquewhite;
 }
