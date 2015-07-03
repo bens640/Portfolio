@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="true"
+	flickrUserName="bens640"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	thumbFrameColor="rgba(153,153,153,.5)"
+	backgroundColor="rgba(39,39,39,1)"
+	galleryTitle=""/>
